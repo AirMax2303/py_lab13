@@ -1,7 +1,7 @@
 class Animal:
     def __init__(self, name):
         self.name = name
-        print(f'Родилось животное{self.name}!')
+        print(f'Родилось животное {self.name}!')
     def eat(self):
         print('Намнём')
     def getName(self):
